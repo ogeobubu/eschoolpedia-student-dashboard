@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Student Dashboard</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img
+              src="./images/Eschoolpedia-logo-side-by-side-768x181.png"
+              alt="Logo"
+            />
+          </div>
+          <div class="notify">
+            <div class="search">
+              <img src="./images/search.svg" alt="" />
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search here"
+              />
+            </div>
+
+            <div class="help">
+              <img src="./images/help.svg" alt="" />
+              <p>Help</p>
+            </div>
+
+            <div class="alert">
+              <img src="./images/notifications.svg" alt="" />
+              <p>Notifications</p>
+              <img src="./images/messages.svg" alt="" />
+              <p>Messages</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <aside class="sidenav">
+        <div class="profile">
+          <img src="./images/grace.svg" alt="Grace" />
+          <div class="status">
+            <h3>Grace Olarotimi</h3>
+            <p>Student</p>
+          </div>
+        </div>
+
+        <nav>
+          <div class="links active">
+            <a href="#"
+              ><img src="./images/dashboard.svg" class="active-image" alt="" />
+              <p>Dashboard</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/time.svg" alt="" />
+              <p>Timetable</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/assignment.svg" alt="" />
+              <p>Assignment</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/classes.svg" alt="" />
+              <p>Classes</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/subject.svg" alt="" />
+              <p>Subject</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/fees.svg" alt="" />
+              <p>Fees</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/result.svg" alt="" />
+              <p>Assessment Result</p></a
+            >
+          </div>
+          <div class="links">
+            <a href="#"
+              ><img src="./images/event.svg" alt="" />
+              <p>Scheduled Event</p></a
+            >
+          </div>
+
+          <br />
+
+          <br />
+
+          <div class="links">
+            <a href="#"
+              ><img src="./images/event.svg" alt="" />
+              <p>Preferience</p></a
+            >
+          </div>
+
+          <div class="links">
+            <a class="signout" href="#popup1"
+              ><img src="./images/event.svg" alt="" />
+              <p>Sign Out</p></a
+            >
+          </div>
+        </nav>
+      </aside>
+
+      <div class="popup" id="popup1">
+        <div class="popup-inner">
+          <h3>Sign Out?</h3>
+          <p>
+            Are you sure you want to sign out?
+          </p>
+          <a href="#" class="button">Yes</a> or
+          <a href="#" class="button">No</a>
+        </div>
+      </div>
+
+      <!-- <main>
+        <section id="welcome">
+          <div class="main-container">
+            <div class="content">
+              <h2>Welcome Back! Grace</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                reprehenderit, molestias error qui debitis adipisci quasi ullam
+                nulla. Rem ut quos molestias est ipsa ea nesciunt fugit possimus
+                enim excepturi.
+              </p>
+            </div>
+            <img src="" alt="Image" />
+          </div>
+        </section>
+
+        <section id="analysis">
+          <div id="cards">
+            <div class="card">
+              <img src="images/user.svg" alt="" />
+              <h3>School Attendance</h3>
+
+              <div class="rating">
+                <p>92%</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/result.svg" alt="" />
+              <h3>Assignment Submitted</h3>
+
+              <div class="rating">
+                <p>92%</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/result.svg" alt="" />
+              <h3>Test Written</h3>
+
+              <div class="rating">
+                <p>92%</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main> -->
+
+      <!-- <section id="stat" class="aside">
+        <div class="grid">
+          <div class="grid-item">
+            <p>Gender</p>
+            <strong>Female</strong>
+          </div>
+          <div class="grid-item">
+            <p>Age</p>
+            <strong>14 Years Old</strong>
+          </div>
+          <div class="grid-item">
+            <p>Class</p>
+            <strong>JSS 1</strong>
+          </div>
+          <div class="grid-item">
+            <p>Session</p>
+            <strong>2020 - 2021</strong>
+          </div>
+        </div>
+        <br />
+        <p>Admission Number</p>
+        <strong>SCC/2021/005</strong>
+        <br />
+        <br />
+        <p>Admission Status</p>
+        <strong class="green">Active</strong>
+      </section>
+
+      <div class="tables">
+        <section id="recent" class="recent">
+          <h3>Recent Classes</h3>
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Topic</th>
+                <th>Subject</th>
+                <th>Teacher</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Soll Types 31/03/2021</td>
+                <td>Int. Science</td>
+                <td>Mr Adekunle</td>
+              </tr>
+              <tr>
+                <td>BODMAS Theory</td>
+                <td>Mathematics</td>
+                <td>Mr Gabriel</td>
+              </tr>
+              <tr>
+                <td>Primary Colours</td>
+                <td>Fine Arts</td>
+                <td>Mrs Idowu</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="view center">
+            <img src="./images/eye.svg" alt="" /><a href="#">View all</a>
+          </div>
+        </section> -->
+
+        <!-- <section id="assign" class="assign">
+          <h3>Assignments</h3>
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Subject</th>
+                <th>Topic</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Int. Science</td>
+                <td>Soil Type</td>
+                <td>Not Submitted</td>
+                <td><a href="#">View</a></td>
+              </tr>
+              <tr>
+                <td>Mathematics</td>
+                <td>BODMAS Theory</td>
+                <td>Submitted</td>
+                <td><a href="#">View</a></td>
+              </tr>
+              <tr>
+                <td>Fine Arts</td>
+                <td>Primary Colours</td>
+                <td class="green">Graded</td>
+                <td><a href="#">View</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="view center">
+            <img src="./images/eye.svg" alt="" /><a href="#">View all</a>
+          </div>
+        </section> -->
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
